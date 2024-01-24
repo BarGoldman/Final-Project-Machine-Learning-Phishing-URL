@@ -1,5 +1,15 @@
 # Final-Project-Machine-Learning-Phishing-URL
 
+"Highly accurate phishing URL detection based on machine learning," presents a machine learning-based framework for detecting phishing URLs. It highlights the persistent threat of phishing attacks and the limitations of existing detection techniques. The proposed method focuses on URL analysis, using a set of features extracted from URLs to classify them as phishing or legitimate. Experiments on various datasets show the framework's effectiveness, with a notable improvement in accuracy compared to existing methods. The approach avoids relying on third-party services or webpage visits, making it efficient and secure.
+
+In English, your sentence would be: "In this project, we will build a machine learning model based on the article."
+
+____
+
+
+
+
+
 Phishing is a type of cyber attack, where phishing imitates a legitimate website page in order to collect sensitive information of the victim and use it maliciously. The article, "Highly Accurate Phishing URL Detection Based on Machine Learning," published in 2022 by Sajjad Jalil, Muhammad Usman, and Alvis Fong, presents a machine learning-based framework for detecting phishing URLs. It emphasizes the ongoing threat of phishing attacks and the limitations of existing detection techniques.
 
 In the article, they mention two pre-existing detection techniques:
