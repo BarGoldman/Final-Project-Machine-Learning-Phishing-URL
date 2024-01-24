@@ -1,8 +1,5 @@
 # Final-Project-Machine-Learning-Phishing-URL
 
-Here's the translation of your summary from Hebrew to English:
-
-**My Summary**:
 Phishing is a type of cyber attack, where phishing imitates a legitimate website page in order to collect sensitive information of the victim and use it maliciously. The article, "Highly Accurate Phishing URL Detection Based on Machine Learning," published in 2022 by Sajjad Jalil, Muhammad Usman, and Alvis Fong, presents a machine learning-based framework for detecting phishing URLs. It emphasizes the ongoing threat of phishing attacks and the limitations of existing detection techniques.
 
 In the article, they mention two pre-existing detection techniques:
