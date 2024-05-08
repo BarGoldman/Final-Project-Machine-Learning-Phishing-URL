@@ -1,27 +1,32 @@
 # Final-Project-Machine-Learning-Phishing-URL
 
-"Highly accurate phishing URL detection based on machine learning," presents a machine learning-based framework for detecting phishing URLs. It highlights the persistent threat of phishing attacks and the limitations of existing detection techniques. The proposed method focuses on URL analysis, using a set of features extracted from URLs to classify them as phishing or legitimate. Experiments on various datasets show the framework's effectiveness, with a notable improvement in accuracy compared to existing methods. The approach avoids relying on third-party services or webpage visits, making it efficient and secure.
+![image](https://github.com/BarGoldman/Final-Project-Machine-Learning-Phishing-URL/assets/93201414/6bd94fa6-4fda-4339-8078-9758e64b6147)
 
-In English, your sentence would be: "In this project, we will build a machine learning model based on the article."
+
+Phishing is a type of cyber attack where someone impersonates a
+legitimate website page in order to collect sensitive information from
+the victim and use it maliciously. To combat the risks associated
+with this threat, it is important to identify phishing sites in time.
+Machine learning models work well for this purpose since they can
+predict phishing incidents using basic information about the sites. In
+most of the most modern solutions dealing with phishing detection,
+several techniques for identifying phishing have been proposed, such
+as third-party and heuristic approaches. These approaches suffer from
+a number of limitations that need to be addressed in order to identify
+phishing addresses. Therefore, this project will discuss our contribution
+to the identification of phishing sites by proposing a machine learning
+model that identifies phishing URL addresses using lexically based
+features, which do not rely on any third-party services and do not
+require visiting the web page for feature extraction.
 
 ____
 
 
+In this study, a machine learning model for identifying phishing URL addresses was presented, based on a dataset containing both malicious and
+non-malicious URLs. Various features based on the entire URL address as
+well as from the full domain name, path name, file name, and parameters
+were introduced. These features do not rely on any third-party services and
+do not require visiting the web page for feature extraction. The feature extraction uses the Random Forest technique. The selected features will enable
+us to train our machine learning model to classify each website address in
+the best way possible.
 
-
-
-Phishing is a type of cyber attack, where phishing imitates a legitimate website page in order to collect sensitive information of the victim and use it maliciously. The article, "Highly Accurate Phishing URL Detection Based on Machine Learning," published in 2022 by Sajjad Jalil, Muhammad Usman, and Alvis Fong, presents a machine learning-based framework for detecting phishing URLs. It emphasizes the ongoing threat of phishing attacks and the limitations of existing detection techniques.
-
-In the article, they mention two pre-existing detection techniques:
-- **Third-Party Oriented Detection** relies on blacklists and whitelists - maintaining a list of known phishing addresses. This technique is efficient but cannot identify new or unknown phishing sites.
-- **Heuristic-Based Detection** is the most famous method that performs well in terms of efficiency and accuracy. This method is further divided into three types:
-   - **Visual Similarity** and **Content Similarity** - Techniques based on visual similarity identify phishing web pages by visually comparing web pages using digital image processing technology. Content-based techniques compare the content of the web page, such as code and DOM content. The problem with these is that phishers making minor changes to the web page without altering its overall appearance or content can go undetected.
-   - **URL-Based Techniques** - Techniques that rely solely on the characteristics of the website address. One of the main limitations is that they are sometimes ineffective against especially new phishing sites, i.e., sites created less than a day before detection. Phishers can bypass detection mechanisms by making slight changes to the URL. These techniques sometimes rely on a fixed set of features related to the URL. This limitation can hinder their ability to identify phishing in cases where phishers use new or varying techniques to hide their activity. Heuristic-based URL techniques may focus on specific features such as the length of the URL, the use of certain characters, or URL formats. This can lead to missing phishing sites that do not fit these patterns. In addition, these techniques require frequent updates and maintenance to stay relevant against new threats, which can be complex and resource-intensive.
-
-Therefore, the article proposes a machine learning technique that overcomes these limitations by analyzing lexical features directly from the URL, instead of relying on traditional heuristic methods. The proposed framework extracts lexical features directly from the URL string. This method differs from relying on third-party services or webpage source code, which are commonly used in traditional techniques. By focusing on the URL itself, the framework can more efficiently and accurately analyze potential phishing threats. The framework incorporates a comprehensive set of features by examining both legitimate and phishing URLs. This extensive feature set allows for a more nuanced and detailed analysis, improving the accuracy of phishing detection. They include advanced evaluation measures to more accurately determine the performance of the phishing detection model. This aspect addresses one of the limitations of previous approaches, which lacked sophisticated evaluation methods. They use machine learning (ML) techniques, which have gained popularity in phishing detection due to their effectiveness and accuracy. ML approaches, such as feature engineering, enable the model to learn and adapt over time, improving its ability to detect new and evolving phishing threats. The proposed approach involves testing on multiple datasets from different sources, ensuring that the model is evaluated in a variety of scenarios and against various types of phishing URLs. This comprehensive testing helps to validate the effectiveness of the framework across different real-world conditions.
-
-In conclusion, the article advocates for a more sophisticated, ML-based approach that directly analyzes URLs and utilizes a broad range of features, thus overcoming many of the limitations of traditional heuristic and content-based methods.
-
-In the article, they note that most existing research uses pre-classified and smaller datasets for model training and evaluation, which fails to accurately reflect the efficiency and precision required for large and real-world datasets. That is, previous approaches lack advanced evaluation measures to accurately determine the performance of a model in phishing detection. 
-
-To address these limitations, the article proposes a new computational learning-based framework for phishing URL detection, relying on lexical features extracted directly from the URL, thus overcoming dependence on third-party services and the need to analyze web-page source code. This approach is designed to efficiently and accurately classify phishing URLs.
